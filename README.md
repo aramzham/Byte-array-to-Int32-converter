@@ -19,4 +19,4 @@ public static int ConvertByteArrayToInt32(byte[] bytes)
 
 After measuring the performances of `BitConverter` from `System.Diagnostics`, my custom converter and @tigranv 's `FromByteToInt1`, the outcome reveals that you **don't need to reinvent the wheel**. Everything you need exists already in the language, you just need to find its place. :+1:
 
-<img width="419" alt="untitled" src="https://cloud.githubusercontent.com/assets/25085025/21965065/7de2afce-db71-11e6-8683-31cd99fc3991.png">
+<img width="628" alt="untitled" src="https://cloud.githubusercontent.com/assets/25085025/21965082/afdb9c98-db71-11e6-82d2-83a0a7e48645.png">
