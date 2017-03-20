@@ -4,7 +4,7 @@ Convert byte array to Int32 on C# 6.0
 This method takes a byte array and converts it to an Int32.
 Here is the body of the method:
 
-```csharp
+```javascript
 public static int ConvertByteArrayToInt32(byte[] bytes)
 {
        var binary = bytes.Reverse().Select(x => Convert.ToString(x, 2).PadLeft(8, '0')).SelectMany(x => x).ToArray();
